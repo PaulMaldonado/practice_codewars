@@ -6,6 +6,8 @@ An isogram is a word that has no repeating letters, consecutive or non-consecuti
 
 For example 
 
-is_isogram("Dermatoglyphics" ) == true
-is_isogram("aba" ) == false
-is_isogram("moOse" ) == false # -- ignore letter case
+is_isogram("game" ) == true
+
+is_isogram("aabb" ) == false
+
+is_isogram("Rruby" ) == false
